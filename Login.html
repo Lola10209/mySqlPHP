@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="css/bootstrap.css">
+<body>
+    <!-- <form action="http://localhost/mysqlphplessons/login.php" method="POST"></form> -->
+    <div class="container vh-100">  
+        <!--view height is 100% of visible height of a screen-->
+        <div class="row justify-content-center h-100">
+            <div class="card w-25 my-auto shadow">
+                <div class="card-header text-center bg-primary text-white">
+                    <h2>Login Form</h2>
+                </div>
+                <div class="card-body">
+                    <form action="login.php" method="POST">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" name="email" required>  <!--required is use to dectect a blank space-->
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="userpassword" class="form-control" name="userpassword" required><br>  <!--required is use to dectect a blank space-->
+                        </div>
+                        <input type="submit" value="login" class="btn bg-primary w-100" name="">  <!--required is use to dectect a blank space-->
+                          
+                    </form>
+                </div> 
+                <div class="card-footer text-right">
+                    <small>&copy;Systems Business School</small>
+                </div>   
+                
+            </div>
+        </div>
+    </div>   
+</body>
+</html>

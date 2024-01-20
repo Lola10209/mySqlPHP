@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* * is global. for color or sizings */
+
+nav{
+    position: fixed;
+    background-color: #E3E6F3;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+}
+/* position; fixed, absolute, relative, static, sticky. pixel is use when you dont want a large size */
+/* z-index:  means the picture should be on top, above. -1 means below it */
+
+.logo{
+    font-size: 25px;
+    position: relative;
+    left: 5%;
+    color: navy;
+    font-weight: bold;
+    line-height: 70px;
+}
+/* absolute is a child to relative, meaning absolute depends on relative. relative can navigate to the left or right */
+/* line height for the text height */
+
+ul{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+}
+/* ul is the container  */
+/* margin-right allows the margin length to come nearer */
+
+ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+/* inline- block for display on horinzontal line */
+/* magin means length and height size */
+/* padding means within and space in height level */
+
+ul li a{
+    text-decoration: none;
+    color: navy;
+    font-size: 17px;
+}
+/* text-decoration is to allow line on the text but none means no line on the text */
+
+.main_img{
+    width: 100%;
+    height: 80vh;
+}
+/* vh means view height */
+
+.section1{
+    padding-top: 70px;
+}
+
+.img_text{
+    position: absolute;
+    top: 18%;
+    left: 30%;
+    font-size: 35px;
+    color: white;
+}
+/* absolute helps the position to be  displayed within */
+
+span{
+    color: black;
+}
+/* span help to put color or style design on a particular text */
+
+.container{
+    padding: 30px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.welcome_img{
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+    
+}
+/* auto means it will adjust the content or image in the center or according to the size of the container*/
+/* padding means space in the inside of a content */
+/* mar */
+
+.container{
+    padding-top: 70px;
+}
+
+.teachers{
+    width: 90%;
+    height: 200px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+    background-color: white;
+    
+}
+/* standard height; 200px, 250px,300px */
+
+.courses{
+    width: 90%;
+    height: 200px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.adm_form_text{
+    background-color: lightsteelblue;
+    /*border: 2px solid red;*/
+}
+
+.label_text{
+    width: 100px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.input_style{
+    width: 20%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(3,3,86);
+    font-size: 20px;
+    padding-top: 10px;
+}
+input[type=text]:focus{
+    background-color: lightblue;
+    border:3px solid #555;
+}
+.textarea_style{
+    width: 50%;
+    height: 80px;
+    border-radius: 10px;
+    border: 1px sold rgb(3,3,86)
+}
+#submit{
+    position: relative;
+    width: 20%;
+    left: 40%;
+}
+footer{
+    margin-top: 10px;
+    background-color: black;
+    height: 70px;
+    width: 100%
+}
+.footer_text{
+    text-align: center;
+    color: #ffff;
+    padding: 5px;
+}
+form{
+    position: relative;
+    padding-top: 10px;
+    left: 5%;
+}
+.admission_form{
+    border: 1px solid rebeccapurple;
+    background-color: lightblue;
+}
+.radio{
+    display: inline;
+    width: 20px;
+    height: 20px;
+}
+.gender_info label{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.gender_info{
+    position: relative;
+    left: 40%;
+}
+.mytextarea{
+    position: relative;
+    left: 15%;
+}
